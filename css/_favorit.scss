@@ -1,0 +1,132 @@
+.page {
+
+    &__favorit {
+        background: url("../img/favorite/placeholder.png") top / cover no-repeat; 
+        padding-bottom: 240px;
+        @media (max-width:620px ) {
+            padding-bottom: 140px;
+                }
+        @media (max-width:400px ) {
+            padding-bottom: 50px; }  
+    
+    }
+}
+.favorit {
+      &__container {
+        margin: 0  auto;
+      }
+
+    &__title {
+        padding: 171px 0px 16px 0px;
+        font-weight: 400;
+        font-size: 72px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: capitalize;
+span{
+    font-weight: 700;
+}
+@media (max-width:912px ) {
+    padding: 200px 0px 16px 0px;
+    font-size: 56px;
+    @media (max-width:620px ) {
+        font-size: 36px;
+            }
+    @media (max-width:400px ) {
+                font-size: 24px;}  
+
+}}
+    &__text {
+        font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: -0.2px;
+max-width: 595px;
+margin: 0  auto;
+padding-bottom: 40px;
+    }
+
+    &__button {
+        max-width: 220px; 
+        margin: 0px auto ;
+		text-align: center;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: row;
+        @media (max-width: 698px) {
+            flex: 1 1 50%;
+            flex-wrap: wrap;}
+        @media (max-width: 450px) {
+            flex-direction: column;
+            flex: 1 1 100%;
+            flex-wrap: wrap;}
+    }
+
+    &__item {
+        flex-direction: column;
+        flex: 1 1 30%;
+        @media (max-width: 698px) {
+            flex: 1 1 50%;
+            flex-wrap: wrap;}
+        
+    }
+
+    &__icon {
+        display: flex;
+       justify-content: center;
+       margin: 0 auto;
+        margin-bottom: 16px;
+     	}
+    &__contacts {
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        text-align: center;
+        color: #FFFFFF;
+       
+    }  
+    &__inscription {
+        text-align: center;
+        font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 4.29;
+align-items: center;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.5;
+
+    }
+   }
+
+.button-favorit {
+background-color:rgba(52, 199, 89, 1) ;
+border-radius: 43px;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 72px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.22;
+text-align: center;
+letter-spacing: 0.2em;
+color: #1A1A1A;
+margin-bottom: 70px;
+     &:hover {
+    background-color: transparent ;
+    color:rgba(179, 179, 179, 1);
+    border: 3px solid grey;
+    transition: linear all 0.2s;
+} 
+}
+
